@@ -34,9 +34,9 @@ Since connecting the AWS database need TAMU VPN request, in this case, here is a
 
 ##### step 1: connect to TAMU VPN and make sure connect to database successfullly
 
-![Screen Shot 2021-10-31 at 4.57.06 PM](/Users/abby/Library/Application%20Support/typora-user-images/Screen%20Shot%202021-10-31%20at%204.57.06%20PM.png)
+![VPN](/Users/abby/Desktop/2021_fall/CSCE315_904/pop-video-recommender/screenshots/VPN.png)
 
-![Screen Shot 2021-10-31 at 4.57.37 PM](/Users/abby/Library/Application%20Support/typora-user-images/Screen%20Shot%202021-10-31%20at%204.57.37%20PM.png)
+![database](/Users/abby/Desktop/2021_fall/CSCE315_904/pop-video-recommender/screenshots/database.png)
 
 ##### step 2: cd to the GUI_Files folder and compile the java files to start the program
 
@@ -45,13 +45,13 @@ javac -cp ".:xchart-3.8.1.jar:postgresql-42.2.8.jar" Welcome.java
 java -cp ".:xchart-3.8.1.jar:postgresql-42.2.8.jar" Welcome
 ~~~
 
-![Screen Shot 2021-10-31 at 5.01.06 PM](/Users/abby/Library/Application%20Support/typora-user-images/Screen%20Shot%202021-10-31%20at%205.01.06%20PM.png)
+![compile](/Users/abby/Desktop/2021_fall/CSCE315_904/pop-video-recommender/screenshots/compile.png)
 
 ---
 
 ##### Welcome page
 
-![Screen Shot 2021-10-31 at 5.02.04 PM](/Users/abby/Library/Application%20Support/typora-user-images/Screen%20Shot%202021-10-31%20at%205.02.04%20PM.png)
+![welcome_page](/Users/abby/Desktop/2021_fall/CSCE315_904/pop-video-recommender/screenshots/welcome_page.png)
 
 ---
 
@@ -59,7 +59,7 @@ java -cp ".:xchart-3.8.1.jar:postgresql-42.2.8.jar" Welcome
 
 We have two roles in this program: analyst and user. Analysts are able to have the access of users watch history and the statistics of popular trending videos. Users only have the access of their own watch history.
 
-![Screen Shot 2021-10-31 at 5.02.31 PM](/Users/abby/Library/Application%20Support/typora-user-images/Screen%20Shot%202021-10-31%20at%205.02.31%20PM.png)
+![login_page](/Users/abby/Desktop/2021_fall/CSCE315_904/pop-video-recommender/screenshots/login_page.png)
 
 ---
 
@@ -67,7 +67,7 @@ We have two roles in this program: analyst and user. Analysts are able to have t
 
 (It takes a while since there is A LOT OF calculations....)
 
-![Screen Shot 2021-10-31 at 5.10.00 PM](/Users/abby/Library/Application%20Support/typora-user-images/Screen%20Shot%202021-10-31%20at%205.10.00%20PM.png)
+![analyst_page](/Users/abby/Desktop/2021_fall/CSCE315_904/pop-video-recommender/screenshots/analyst_page.png)
 
 For the left two cols we have some charts of pop trending videos statistics. In the top right corner, the analyst can input two movies to find their connection (due to actors or directors). At the right buttom we have the hollywood pairs where shows the Top couples with highest average movie ratings which they acted together. Check hollywoodPair_SQL.pdf for related SQL commands.
 
@@ -77,4 +77,5 @@ For the left two cols we have some charts of pop trending videos statistics. In 
 
 User has to use their User_ID to login. This page just simply lists the related user's watching information.
 
-![Screen Shot 2021-10-31 at 5.17.47 PM](/Users/abby/Library/Application%20Support/typora-user-images/Screen%20Shot%202021-10-31%20at%205.17.47%20PM.png)
+![user_page](/Users/abby/Desktop/2021_fall/CSCE315_904/pop-video-recommender/screenshots/user_page.png)
+
